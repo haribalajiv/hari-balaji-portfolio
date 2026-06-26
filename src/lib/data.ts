@@ -12,8 +12,7 @@ export const profile = {
   ],
   heroDescription:
     "Building intelligent systems with AI, ML & Generative AI. B.Tech AI & Data Science (2027) — exploring LLMs, RAG, AI agents and applied deep learning.",
-  resumeUrl:
-    'https://customer-assets.emergentagent.com/job_aa8689d8-74ea-48dd-885d-2129e463ff3c/artifacts/7deea0cj_Hari%20Balaji%20V%20Resume%20%284%29.pdf',
+  resumeUrl: '/Hari_Balaji_Resume.pdf',
   email: 'haribalajiv20@gmail.com',
   phone: '+91 90437 98630',
   github: 'https://github.com/haribalajiv',

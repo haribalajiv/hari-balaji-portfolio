@@ -49,8 +49,7 @@ export default function Navbar() {
             </span>
             <a
               href={profile.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Hari_Balaji_Resume.pdf"
               className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-ink font-mono text-xs uppercase tracking-wider font-medium hover:bg-[#d6ff66] transition-colors"
               data-testid="nav-resume-btn"
             >
@@ -82,8 +81,7 @@ export default function Navbar() {
               ))}
               <a
                 href={profile.resumeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                download="Hari_Balaji_Resume.pdf"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-ink font-mono text-xs uppercase tracking-wider font-medium w-fit"
               >
                 <Download className="w-3.5 h-3.5" /> Download Resume

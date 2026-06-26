@@ -92,8 +92,7 @@ export default function Hero() {
             </a>
             <a
               href={profile.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Hari_Balaji_Resume.pdf"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-[#2a2a26] text-[#efece4] font-mono text-xs uppercase tracking-wider hover:border-accent hover:text-accent transition-colors"
               data-testid="hero-cta-resume"
             >
